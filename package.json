@@ -1,0 +1,17 @@
+{
+  "name": "benchmark",
+  "version": "1.0.0",
+  "description": "Benchmark project Payme",
+  "main": "build/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start" : "rm -rf build && tsc && node build/main.js"
+  },
+  "keywords": [],
+  "author": "Bekhzod Ubaydullaev",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/node": "^20.8.6"
+  }
+}
